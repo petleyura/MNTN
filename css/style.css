@@ -415,7 +415,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border-right: 3px solid hsla(0deg, 0%, 100%, 0.5);
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -426,6 +425,17 @@ body {
   padding: 20px 35px 20px 0;
   text-align: right;
   line-height: 122%;
+  border-right: 3px solid hsla(0deg, 0%, 100%, 0.2);
+  -webkit-transition: border 1.2s ease 0s;
+  -o-transition: border 1.2s ease 0s;
+  transition: border 1.2s ease 0s;
+  padding: 20px;
+  border-bottom: 0px solid hsla(0deg, 0%, 100%, 0.2);
+}
+
+.title__sidebar a._active {
+  border-right: 3px solid rgb(255, 255, 255);
+  border-bottom: 0px solid rgb(255, 255, 255);
 }
 
 .icon-instagram,
@@ -964,17 +974,22 @@ body {
             transform: rotate(45deg);
   }
 
+  .title__sidebar a {
+    border-right: 0px solid hsla(0deg, 0%, 100%, 0.2);
+    border-bottom: 3px solid hsla(0deg, 0%, 100%, 0.2);
+  }
+
+  .title__sidebar a._active {
+    border-right: 0px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+  }
+
   .sidebar {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
     border-right: none;
-    border-bottom: 3px solid hsla(0deg, 0%, 100%, 0.5);
-  }
-
-  .sidebar a {
-    padding: 20px;
   }
 
   .pege__paragraph {

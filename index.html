@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221014230938">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221020225737">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,16 +61,16 @@
 						<div class="title__navigation">
 							<div data-da=".menu__body,767,last" class="title__sidebar sidebar">
 								<div class="sidebar__link">
-									<a href="">Start</a>
+									<a href="#" data-goto=".header__title" data-goto-header>Start</a>
 								</div>
 								<div class="sidebar__link">
-									<a href="">01</a>
+									<a href="#" data-goto="#one" data-goto-speed="1000" class="01">01</a>
 								</div>
 								<div class="sidebar__link">
-									<a href="">02</a>
+									<a href="#" data-goto="#two" data-goto-speed="1000">02</a>
 								</div>
 								<div class="sidebar__link">
-									<a href="">03</a>
+									<a href="#" data-goto="#three" data-goto-speed="1000">03</a>
 								</div>
 							</div>
 						</div>
@@ -87,7 +87,7 @@
 					<div class="paralax__content-item3"></div>
 				</div>
 				<div class="pege__flex">
-					<div class="pege__paragraph paragraph">
+					<div id="one" data-watch class="pege__paragraph paragraph">
 						<div class="paragraph__content">
 							<div class="paragraph__subtitle _subtitle">
 								<h3>GEt Started</h3>
@@ -110,7 +110,7 @@
 							<picture><source srcset="img/paragpaph/01.webp" type="image/webp"><img src="img/paragpaph/01.jpg" alt="01"></picture>
 						</div>
 					</div>
-					<div class="pege__paragraph paragraph pege__paragraph-rewerse">
+					<div id="two" data-watch class="pege__paragraph paragraph pege__paragraph-rewerse">
 						<div class="paragraph__content">
 							<div class="paragraph__subtitle _subtitle">
 								<h3>Hiking Essentials</h3>
@@ -127,7 +127,7 @@
 						</div>
 						<div class="paragraph__img"><picture><source srcset="img/paragpaph/02.webp" type="image/webp"><img src="img/paragpaph/02.jpg" alt=""></picture></div>
 					</div>
-					<div class="pege__paragraph paragraph">
+					<div id="three" data-watch class="pege__paragraph paragraph">
 						<div class="paragraph__content">
 							<div class="paragraph__subtitle _subtitle">
 								<h3>where you go is the key</h3>
@@ -198,7 +198,7 @@
 		</div>
 	</div>
 </div> -->
-	<script src="js/app.min.js?_v=20221014230938"></script>
+	<script src="js/app.min.js?_v=20221020225737"></script>
 </body>
 
 </html>
